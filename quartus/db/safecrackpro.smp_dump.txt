@@ -1,0 +1,11 @@
+
+State Machine - |safecrackpro_top|safecrackpro_fsm:fsm_inst|state
+Name state.WAIT_RED_LED_TIME state.WAIT_GREEN_LED_TIME state.CHECK_PASSWORD state.INC_POSITION state.DEC_DIGIT state.INC_DIGIT state.CURRENT_POSITION state.START 
+state.START 0 0 0 0 0 0 0 0 
+state.CURRENT_POSITION 0 0 0 0 0 0 1 1 
+state.INC_DIGIT 0 0 0 0 0 1 0 1 
+state.DEC_DIGIT 0 0 0 0 1 0 0 1 
+state.INC_POSITION 0 0 0 1 0 0 0 1 
+state.CHECK_PASSWORD 0 0 1 0 0 0 0 1 
+state.WAIT_GREEN_LED_TIME 0 1 0 0 0 0 0 1 
+state.WAIT_RED_LED_TIME 1 0 0 0 0 0 0 1 
